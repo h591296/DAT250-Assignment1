@@ -29,6 +29,6 @@ class AppTest {
         // Test converting miles to feet
         assertEquals(5280, App.unitConversion(1.0, "mi", "ft")); 
         // Test converting miles to meters
-        assertEquals(1609.344, App.unitConversion(1.0, "mi", "m")); 
+        assertEquals(1609.344, App.unitConversion(1.0, "mi", "m"));
     }
 }
