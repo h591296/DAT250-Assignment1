@@ -16,6 +16,12 @@ repositories {
 }
 
 dependencies {
+     // Had to implement this dependency towards Javalin because it was missing
+    implementation("io.javalin:javalin:5.6.1")
+
+    // Adding a logger to get rid of the message: Javalin: It looks like you don't have a logger in your project.
+    implementation("org.slf4j:slf4j-simple:2.0.7")
+
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.3")
 

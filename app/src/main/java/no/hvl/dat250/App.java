@@ -1,3 +1,6 @@
+// Add the package that was missing during the gradle initialization wizard.
+package no.hvl.dat250;
+
 import io.javalin.Javalin;
 
 public class App {
