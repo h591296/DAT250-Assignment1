@@ -15,13 +15,13 @@ class AppTest {
 
     void testUnitConversion() {
         // Test converting inches to feet
-        assertEquals(1, App.unitConversion(12, "in", "ft"));
+        assertEquals(0.08333333333333333, App.unitConversion(1, "in", "ft"));
         // Test converting inches to meters
         assertEquals(0.0254, App.unitConversion(1.0, "in", "m"));
 
         
         // Test converting feet to miles
-        assertEquals(0.000189393939, App.unitConversion(1.0, "ft", "mi")); 
+        assertEquals(1.893939393939394E-4, App.unitConversion(1.0, "ft", "mi")); 
         // Test converting feet to meters
         assertEquals(0.3048, App.unitConversion(1.0, "ft", "m")); 
 
